@@ -1,0 +1,30 @@
+server:
+  port: 8080
+aws:
+  access:
+    key:
+      id: AKIA5W5BG4B5ZUTTELP3
+  secret:
+    access:
+      key: 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
+  s3:
+    region: eu-north-1
+    bucket:
+      name: licenta1
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/licenta
+    username: postgres
+    password: a2001
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  main:
+    web-application-type: servlet
