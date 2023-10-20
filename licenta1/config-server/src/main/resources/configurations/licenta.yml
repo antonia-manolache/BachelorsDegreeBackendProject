@@ -3,10 +3,10 @@ server:
 aws:
   access:
     key:
-      id: AKIA5W5BG4B5ZUTTELP3
+      id: your-id
   secret:
     access:
-      key: 9EETnnJ02uH8PR7Gs7DbkRw+gLrc64DMmAAgF7Ai
+      key: your-key
   s3:
     region: eu-north-1
     bucket:
