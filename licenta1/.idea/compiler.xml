@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="clients" />
+        <module name="discovery" />
+        <module name="amqp" />
+        <module name="challenge" />
+        <module name="comment" />
+        <module name="licenta" />
+        <module name="gateaway" />
+        <module name="notifications" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="amqp" target="17" />
+      <module name="challenge" target="17" />
+      <module name="clients" target="17" />
+      <module name="comment" target="17" />
+      <module name="config-server" target="17" />
+      <module name="discovery" target="17" />
+      <module name="gateaway" target="17" />
+      <module name="licenta" target="17" />
+      <module name="notifications" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="amqp" options="-parameters" />
+      <module name="challenge" options="-parameters" />
+      <module name="clients" options="-parameters" />
+      <module name="comment" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="gateaway" options="-parameters" />
+      <module name="licenta" options="-parameters" />
+      <module name="notifications" options="-parameters" />
+    </option>
+  </component>
+</project>
